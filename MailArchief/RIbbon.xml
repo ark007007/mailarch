@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+          <group id="MyGroup"
+       label="My Group">
+            <button id="btnMacro" label="archiveer mail"
+               screentip="Text" onAction="RunMacro"
+               supertip="Zet de mail in de map van de klant"/>
+            <button id="btnPath" label="update paden"
+     screentip="Text" onAction="MakePathFile"
+     supertip="update xml paden"/>
+          </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
